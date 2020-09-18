@@ -6,7 +6,7 @@ s = requests.Session()
 username = ""
 password = ""
 
-if(username == "" or password == ""):
+if(username == "" or password == ""): 
     username = input("账号：")
     password = input("密码：")
 
